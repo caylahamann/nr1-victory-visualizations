@@ -1,13 +1,13 @@
 {
   "schemaType": "VISUALIZATION",
-  "id": "range-chart",
-  "displayName": "Range chart",
+  "id": "line-billboard",
+  "displayName": "Line Billboard",
   "description": "",
   "configuration": [
     {
-      "name": "nrqlQueries",
-      "title": "NRQL Queries",
-      "type": "collection",
+      "name": "nrqlQuery",
+      "title": "NRQL Query",
+      "type": "namespace",
       "items": [
         {
           "name": "accountId",
@@ -20,19 +20,6 @@
           "title": "Query",
           "description": "NRQL query for visualization",
           "type": "nrql"
-        }
-      ]
-    }, 
-    {
-      "name": "other",
-      "title": "Other groups",
-      "type": "namespace",
-      "items": [
-        {
-          "name": "visible",
-          "title": "Visible",
-          "description": "Manages the visibility of \"Other\" groups of attributes",
-          "type": "boolean"
         }
       ]
     }

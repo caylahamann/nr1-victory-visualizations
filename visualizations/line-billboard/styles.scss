@@ -1,7 +1,8 @@
 @import '../../src/styles.scss';
 @import '../../src/no-data-state/styles.scss';
-
-.EmptyState {
+@import '../../src/nrql-query-error/styles.scss';
+.EmptyState,
+.ErrorState {
   height: 100%;
   text-align: center;
 
@@ -11,5 +12,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+}
+
+.ErrorState-headingText {
+  color: darkgrey;
+}
+
+.BillboardLineChart {
+  &-billboardText {
+    font-size: 72px;
   }
 }

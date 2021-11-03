@@ -18,6 +18,8 @@
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "recharts": "^2.1.4",
+    "simple-statistics": "^7.7.0",
     "victory": "^35.8.1"
   },
   "browserslist": [
