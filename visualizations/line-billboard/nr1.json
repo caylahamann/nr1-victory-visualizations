@@ -22,6 +22,12 @@
           "type": "nrql"
         }
       ]
+    },
+    {
+      "name": "showColorForTrend",
+      "title": "Shows color for trend",
+      "type": "boolean",
+      "description": "Will color code line chart for trend"
     }
   ]
 }
